@@ -10,10 +10,10 @@ custom:
 
 provider:
   name: aws
-  profile: workshop
   runtime: nodejs6.10
   stage: prod
   region: us-east-1
+  profile: workshop
 
   # 'iamRoleStatement' defines the permission policy for the Lambda function.
   # In this case Lambda functions are granted with permissions to access DynamoDB.
